@@ -1,0 +1,24 @@
+{
+  "slug": "MVaveSmcPad",
+  "name": "M-Vave SMC Pad",
+  "version": "@PROJECT_VERSION@",
+  "license": "MIT",
+  "brand": "M-Vave",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "minRackVersion": "2.0.0",
+  "modules": [
+    {
+      "slug": "SmcPad",
+      "name": "SMC Pad",
+      "description": "1:1 recreation of the M-Vave SMC Pad MIDI controller as a CV output module. 8 knobs and 16 pads with configurable gate/trigger modes and CV ranges.",
+      "tags": ["Controller", "Utility"]
+    }
+  ]
+}

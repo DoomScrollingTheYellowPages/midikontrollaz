@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake -B build -DCMAKE_BUILD_TYPE=Release)",
+      "Bash(cmake --build build --parallel)",
+      "Bash(rm -rf build)",
+      "Bash(cmake -B build -G \"MinGW Makefiles\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++)",
+      "Bash(cmake --install build)",
+      "Bash(cp -r \"C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/res\" \"C:/Users/samue/AppData/Roaming/Rack2/plugins/MVaveSmcPad/\")",
+      "Read(//c/Users/samue/AppData/Roaming/Rack2/plugins/MVaveSmcPad/**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files/VCV//**)",
+      "Read(//c/Program Files//**)",
+      "Read(//c/Users/samue/Documents/Rack2/**)",
+      "Read(//c/Users/samue/AppData/Local/Rack2/**)"
+    ]
+  }
+}

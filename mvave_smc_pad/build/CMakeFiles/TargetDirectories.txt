@@ -1,0 +1,8 @@
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/MVaveSmcPad.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/dist.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/edit_cache.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/rebuild_cache.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/list_install_components.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/install.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/install/local.dir
+C:/Users/samue/Documents/GitHub/modules/mvave_smc_pad/build/CMakeFiles/install/strip.dir

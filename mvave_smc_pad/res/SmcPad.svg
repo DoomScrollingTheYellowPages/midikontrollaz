@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.44mm" height="128.5mm" viewBox="0 0 91.44 128.5">
+  <!-- Main panel background - soft dark gray -->
+  <rect width="91.44" height="128.5" fill="#3a3a3a"/>
+
+  <!-- Subtle border -->
+  <rect x="0.5" y="0.5" width="90.44" height="127.5" rx="1" fill="none" stroke="#4a4a4a" stroke-width="0.5"/>
+
+  <!-- Top and bottom accent lines -->
+  <rect x="0" y="0" width="91.44" height="1" fill="#555"/>
+  <rect x="0" y="127.5" width="91.44" height="1" fill="#555"/>
+
+  <!-- Knob section background (cols 1-2) -->
+  <rect x="2" y="11" width="23" height="108" rx="2" fill="#2e2e2e" fill-opacity="0.5"/>
+
+  <!-- Pad section background (cols 3-6) -->
+  <rect x="26" y="11" width="51" height="108" rx="2" fill="#2e2e2e" fill-opacity="0.3"/>
+
+  <!-- Button section background (col 7) -->
+  <rect x="78" y="11" width="12" height="108" rx="2" fill="#2e2e2e" fill-opacity="0.4"/>
+</svg>

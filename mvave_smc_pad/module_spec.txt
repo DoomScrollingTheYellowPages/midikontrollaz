@@ -1,0 +1,92 @@
+M-Vave SMC Pad - VCV Rack Module Specification
+================================================
+
+Source: M-Vave SMC Pad MIDI Controller (physical hardware)
+Goal: 1:1 visual recreation as a VCV Rack module that outputs CV, Gates, and Triggers.
+
+LAYOUT OVERVIEW
+===============
+- Left side: 8 rotary knobs arranged in a 4-row x 2-column grid
+- Right side: 16 pads arranged in a 4-row x 4-column grid
+- Right edge: Small utility buttons (appears to be transport/mode buttons)
+- Color scheme: Dark grey/charcoal body, white/light grey pads, blue-lit knobs
+
+KNOBS (Left Side, numbered bottom-to-top, left-to-right)
+=========================================================
+Row 1 (bottom):
+  Knob 1 - Label: RATE
+  Knob 2 - Label: SWING
+
+Row 2:
+  Knob 3 - Label: TEMPO
+  Knob 4 - Label: LATCH
+
+Row 3:
+  Knob 5 - Label: VELOCITY 1 / SWING OFF
+  Knob 6 - Label: VELOCITY 2 / SWING 1
+
+Row 4 (top):
+  Knob 7 - Label: TRANSPOSE / SWING 4
+  Knob 8 - Label: TRANSPOSE+ / LATCH
+
+Each knob outputs a CV signal.
+
+PADS (Right Side, 4x4 grid, numbered bottom-to-top, left-to-right)
+===================================================================
+Row 1 (bottom):
+  PAD1  - PRESETS 1  (1/4)
+  PAD2  - PRESETS 2  (1/4T)
+  PAD3  - PRESETS 3  (1/8)
+  PAD4  - PRESETS 4  (1/8T)
+
+Row 2:
+  PAD5  - PRESETS 5  (1/16)
+  PAD6  - PRESETS 6  (1/16T)
+  PAD7  - PRESETS 7  (1/32)
+  PAD8  - PRESETS 8  (1/32T)
+
+Row 3:
+  PAD9  - VELOCITY 1  / SWING OFF
+  PAD10 - VELOCITY 2  / SWING 1
+  PAD11 - VELOCITY 3  / SWING 2
+  PAD12 - VELOCITY 4  / SWING 3
+
+Row 4 (top):
+  PAD13 - TRANSPOSE   / SWING 4
+  PAD14 - TRANSPOSE+  / LATCH
+  PAD15 - OCTAVE      / SYNC
+  PAD16 - OCTAVE+     / TAP TEMPO
+
+Each pad outputs a Gate or Trigger signal (user-selectable).
+
+RIGHT-SIDE BUTTONS
+==================
+Small vertical strip of buttons on the right edge (transport/mode controls).
+Visible buttons appear to include navigation/mode selectors with small indicator lights.
+
+OUTPUTS
+=======
+- 8 CV outputs (one per knob)
+- 16 Gate/Trigger outputs (one per pad)
+- Total: 24 outputs
+
+CONTEXT MENU OPTIONS
+====================
+Per-pad settings:
+  - Mode: Gate / Trigger (toggle per pad)
+
+Global settings:
+  - Knob CV Range: 0V to 10V / -5V to 5V / 0V to 5V / 0V to 1V
+  - Gate voltage: 0V-10V (standard) or configurable
+  - Trigger duration (when in trigger mode)
+
+VISUAL DESIGN NOTES
+====================
+- Body: Dark charcoal/gunmetal grey with subtle texture
+- Pads: White/light grey square pads with rounded corners, slightly recessed
+- Knobs: Dark knobs with blue LED ring indicators
+- Labels: White text, uppercase, small font
+- Sub-labels: Smaller secondary text beneath main labels
+- Pad labels appear above each pad
+- "M-VAVE" branding top-left
+- Overall dimensions: Wide module (likely 30-40 HP in VCV terms)

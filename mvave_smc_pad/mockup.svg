@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1124" viewBox="0 0 91.44 128.5">
+  <defs>
+    <!-- Knob gradient -->
+    <radialGradient id="knob" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </radialGradient>
+    <!-- Jack gradient -->
+    <radialGradient id="jack" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#888"/>
+      <stop offset="60%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#333"/>
+    </radialGradient>
+    <!-- Jack hole -->
+    <radialGradient id="jackhole" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#111"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Panel background -->
+  <rect width="91.44" height="128.5" fill="#3a3a3a"/>
+  <rect x="0.5" y="0.5" width="90.44" height="127.5" rx="1" fill="none" stroke="#4a4a4a" stroke-width="0.5"/>
+  <rect x="0" y="0" width="91.44" height="1" fill="#555"/>
+  <rect x="0" y="127.5" width="91.44" height="1" fill="#555"/>
+
+  <!-- Section backgrounds -->
+  <rect x="2" y="11" width="23" height="108" rx="2" fill="#2e2e2e" fill-opacity="0.5"/>
+  <rect x="26" y="11" width="51" height="108" rx="2" fill="#2e2e2e" fill-opacity="0.3"/>
+  <rect x="78" y="11" width="12" height="108" rx="2" fill="#2e2e2e" fill-opacity="0.4"/>
+
+  <!-- Column dividers -->
+  <line x1="13.5" y1="11" x2="13.5" y2="119" stroke="#505050" stroke-width="0.3" stroke-opacity="0.5"/>
+  <line x1="25.5" y1="11" x2="25.5" y2="119" stroke="#505050" stroke-width="0.3" stroke-opacity="0.5"/>
+  <line x1="38.5" y1="11" x2="38.5" y2="119" stroke="#505050" stroke-width="0.3" stroke-opacity="0.5"/>
+  <line x1="51.5" y1="11" x2="51.5" y2="119" stroke="#505050" stroke-width="0.3" stroke-opacity="0.5"/>
+  <line x1="64.5" y1="11" x2="64.5" y2="119" stroke="#505050" stroke-width="0.3" stroke-opacity="0.5"/>
+  <line x1="77.5" y1="11" x2="77.5" y2="119" stroke="#505050" stroke-width="0.3" stroke-opacity="0.5"/>
+
+  <!-- Corner screws -->
+  <circle cx="4" cy="4" r="2.2" fill="#777" stroke="#555" stroke-width="0.3"/>
+  <line x1="2.5" y1="4" x2="5.5" y2="4" stroke="#555" stroke-width="0.4"/>
+  <circle cx="87.44" cy="4" r="2.2" fill="#777" stroke="#555" stroke-width="0.3"/>
+  <line x1="85.94" y1="4" x2="88.94" y2="4" stroke="#555" stroke-width="0.4"/>
+  <circle cx="4" cy="124.5" r="2.2" fill="#777" stroke="#555" stroke-width="0.3"/>
+  <line x1="2.5" y1="124.5" x2="5.5" y2="124.5" stroke="#555" stroke-width="0.4"/>
+  <circle cx="87.44" cy="124.5" r="2.2" fill="#777" stroke="#555" stroke-width="0.3"/>
+  <line x1="85.94" y1="124.5" x2="88.94" y2="124.5" stroke="#555" stroke-width="0.4"/>
+
+  <!-- === ROW 1 (Y=20) === -->
+  <!-- Knobs col 1 & 2 -->
+  <circle cx="8" cy="20" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="8" y1="20" x2="10" y2="17.5" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="19" cy="20" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="19" y1="20" x2="21" y2="17.5" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <!-- Knob jacks -->
+  <circle cx="8" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="8" cy="31" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="19" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="19" cy="31" r="1.5" fill="url(#jackhole)"/>
+
+  <!-- Pads row 1 -->
+  <rect x="25.5" y="13.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="38.5" y="13.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="51.5" y="13.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="64.5" y="13.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <!-- Pad jacks row 1 -->
+  <circle cx="32" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="32" cy="31" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="45" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="45" cy="31" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="58" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="58" cy="31" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="71" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="71" cy="31" r="1.5" fill="url(#jackhole)"/>
+
+  <!-- Button row 1 -->
+  <circle cx="84" cy="20" r="2.8" fill="#222" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="20" r="2" fill="#333"/>
+  <circle cx="84" cy="31" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="31" r="1.5" fill="url(#jackhole)"/>
+
+  <!-- === ROW 2 (Y=46) === -->
+  <circle cx="8" cy="46" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="8" y1="46" x2="6" y2="43.5" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="19" cy="46" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="19" y1="46" x2="17" y2="43.5" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="8" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="8" cy="57" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="19" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="19" cy="57" r="1.5" fill="url(#jackhole)"/>
+
+  <rect x="25.5" y="39.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="38.5" y="39.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="51.5" y="39.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="64.5" y="39.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <circle cx="32" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="32" cy="57" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="45" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="45" cy="57" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="58" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="58" cy="57" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="71" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="71" cy="57" r="1.5" fill="url(#jackhole)"/>
+
+  <circle cx="84" cy="46" r="2.8" fill="#222" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="46" r="2" fill="#333"/>
+  <circle cx="84" cy="57" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="57" r="1.5" fill="url(#jackhole)"/>
+
+  <!-- === ROW 3 (Y=72) === -->
+  <circle cx="8" cy="72" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="8" y1="72" x2="10.5" y2="74" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="19" cy="72" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="19" y1="72" x2="21.5" y2="74" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="8" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="8" cy="83" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="19" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="19" cy="83" r="1.5" fill="url(#jackhole)"/>
+
+  <rect x="25.5" y="65.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="38.5" y="65.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="51.5" y="65.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="64.5" y="65.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <circle cx="32" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="32" cy="83" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="45" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="45" cy="83" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="58" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="58" cy="83" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="71" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="71" cy="83" r="1.5" fill="url(#jackhole)"/>
+
+  <circle cx="84" cy="72" r="2.8" fill="#222" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="72" r="2" fill="#333"/>
+  <circle cx="84" cy="83" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="83" r="1.5" fill="url(#jackhole)"/>
+
+  <!-- === ROW 4 (Y=98) === -->
+  <circle cx="8" cy="98" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="8" y1="98" x2="5.5" y2="96" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="19" cy="98" r="4.3" fill="url(#knob)" stroke="#222" stroke-width="0.3"/>
+  <line x1="19" y1="98" x2="16.5" y2="96" stroke="#ccc" stroke-width="0.5" stroke-linecap="round"/>
+  <circle cx="8" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="8" cy="109" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="19" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="19" cy="109" r="1.5" fill="url(#jackhole)"/>
+
+  <rect x="25.5" y="91.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="38.5" y="91.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="51.5" y="91.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <rect x="64.5" y="91.5" width="13" height="13" rx="1.5" fill="#d0d0d0" stroke="#aaa" stroke-width="0.3"/>
+  <circle cx="32" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="32" cy="109" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="45" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="45" cy="109" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="58" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="58" cy="109" r="1.5" fill="url(#jackhole)"/>
+  <circle cx="71" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="71" cy="109" r="1.5" fill="url(#jackhole)"/>
+
+  <circle cx="84" cy="98" r="2.8" fill="#222" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="98" r="2" fill="#333"/>
+  <circle cx="84" cy="109" r="3.2" fill="url(#jack)" stroke="#444" stroke-width="0.3"/>
+  <circle cx="84" cy="109" r="1.5" fill="url(#jackhole)"/>
+
+  <!-- Labels -->
+  <style>
+    .lbl { font-family: sans-serif; font-size: 2.2px; fill: #ff9900; text-anchor: middle; }
+    .lbl-sm { font-family: sans-serif; font-size: 1.8px; fill: #ff9900; text-anchor: middle; }
+  </style>
+
+  <!-- Title -->
+  <text x="45.72" y="9" class="lbl" style="font-size:3px; fill:#ccc;">SMC PAD</text>
+
+  <!-- Row 1 (top) — Knobs 7,8 / Pads 13-16 / Play -->
+  <text x="8" y="14.5" class="lbl">K7</text>
+  <text x="19" y="14.5" class="lbl">K8</text>
+  <text x="32" y="12.5" class="lbl">P13</text>
+  <text x="45" y="12.5" class="lbl">P14</text>
+  <text x="58" y="12.5" class="lbl">P15</text>
+  <text x="71" y="12.5" class="lbl">P16</text>
+  <text x="84" y="15.5" class="lbl-sm">Play</text>
+
+  <!-- Row 2 — Knobs 5,6 / Pads 9-12 / Stop -->
+  <text x="8" y="40.5" class="lbl">K5</text>
+  <text x="19" y="40.5" class="lbl">K6</text>
+  <text x="32" y="38.5" class="lbl">P9</text>
+  <text x="45" y="38.5" class="lbl">P10</text>
+  <text x="58" y="38.5" class="lbl">P11</text>
+  <text x="71" y="38.5" class="lbl">P12</text>
+  <text x="84" y="41.5" class="lbl-sm">Stop</text>
+
+  <!-- Row 3 — Knobs 3,4 / Pads 5-8 / Shift -->
+  <text x="8" y="66.5" class="lbl">K3</text>
+  <text x="19" y="66.5" class="lbl">K4</text>
+  <text x="32" y="64.5" class="lbl">P5</text>
+  <text x="45" y="64.5" class="lbl">P6</text>
+  <text x="58" y="64.5" class="lbl">P7</text>
+  <text x="71" y="64.5" class="lbl">P8</text>
+  <text x="84" y="67.5" class="lbl-sm">Shift</text>
+
+  <!-- Row 4 (bottom) — Knobs 1,2 / Pads 1-4 / NoteRpt -->
+  <text x="8" y="92.5" class="lbl">K1</text>
+  <text x="19" y="92.5" class="lbl">K2</text>
+  <text x="32" y="90.5" class="lbl">P1</text>
+  <text x="45" y="90.5" class="lbl">P2</text>
+  <text x="58" y="90.5" class="lbl">P3</text>
+  <text x="71" y="90.5" class="lbl">P4</text>
+  <text x="84" y="93.5" class="lbl-sm">NtRpt</text>
+</svg>
