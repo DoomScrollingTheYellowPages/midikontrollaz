@@ -1,0 +1,24 @@
+{
+  "slug": "KorgNanoKontrol",
+  "name": "Korg nanoKONTROL",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Korg",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "minRackVersion": "2.0.0",
+  "modules": [
+    {
+      "slug": "NanoKontrol",
+      "name": "nanoKONTROL",
+      "description": "1:1 recreation of the Korg nanoKONTROL MIDI controller as a CV output module. 9 channel strips with knobs, faders, and buttons, plus transport controls and scene selection.",
+      "tags": ["Controller", "Utility"]
+    }
+  ]
+}

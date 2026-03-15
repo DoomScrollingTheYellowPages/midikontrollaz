@@ -1,0 +1,79 @@
+Korg nanoKONTROL - VCV Rack Module Specification
+=================================================
+
+Source: Korg nanoKONTROL MIDI Controller (physical hardware, first generation)
+Goal: 1:1 visual recreation as a VCV Rack module that outputs CV, Gates, and Triggers.
+
+LAYOUT OVERVIEW
+===============
+- Left side: Transport controls (6 buttons) and Scene selector (1-4)
+- Main area: 9 channel strips, each containing a rotary knob, a vertical fader, and 2 buttons
+- Color scheme: Silver/light grey body, blue channel strip backgrounds, white knobs and fader caps, pink/red illuminated buttons
+
+TRANSPORT CONTROLS (Left Side, 2 rows x 3 columns)
+====================================================
+Row 1 (top):
+  REW    - Rewind
+  PLAY   - Play
+  FF     - Fast Forward
+
+Row 2 (bottom):
+  LOOP   - Loop/Cycle
+  STOP   - Stop
+  REC    - Record
+
+Each transport button outputs a Gate/Trigger signal.
+
+SCENE SELECTOR
+==============
+  SCENE button with 4 indicator LEDs (scenes 1-4)
+  Outputs: Scene CV (0-3 discrete values)
+
+CHANNEL STRIPS (9 channels, numbered 1-9 left to right)
+========================================================
+Each channel strip contains (top to bottom):
+  - 1 Rotary Knob: continuous CV output
+  - 1 Vertical Fader (slider): continuous CV output
+  - 2 Buttons (upper = A, lower = B): Gate/Trigger output each
+
+Channel 1:  Knob 1, Fader 1, Button A1, Button B1
+Channel 2:  Knob 2, Fader 2, Button A2, Button B2
+Channel 3:  Knob 3, Fader 3, Button A3, Button B3
+Channel 4:  Knob 4, Fader 4, Button A4, Button B4
+Channel 5:  Knob 5, Fader 5, Button A5, Button B5
+Channel 6:  Knob 6, Fader 6, Button A6, Button B6
+Channel 7:  Knob 7, Fader 7, Button A7, Button B7
+Channel 8:  Knob 8, Fader 8, Button A8, Button B8
+Channel 9:  Knob 9, Fader 9, Button A9, Button B9
+
+OUTPUTS
+=======
+- 9 Knob CV outputs
+- 9 Fader CV outputs
+- 18 Button Gate/Trigger outputs (2 per channel)
+- 6 Transport Gate/Trigger outputs
+- 1 Scene CV output
+- Total: 43 outputs
+
+CONTEXT MENU OPTIONS
+====================
+Per-button settings:
+  - Mode: Gate / Trigger (toggle per button)
+
+Global settings:
+  - Knob CV Range: 0V to 10V / -5V to 5V / 0V to 5V / 0V to 1V
+  - Fader CV Range: 0V to 10V / -5V to 5V / 0V to 5V / 0V to 1V
+  - Gate voltage: 0V-10V (standard) or configurable
+  - Trigger duration (when in trigger mode)
+
+VISUAL DESIGN NOTES
+====================
+- Body: Silver/light grey with subtle texture
+- Channel strip backgrounds: Blue/medium blue recessed areas
+- Knobs: White/light grey with dark indicator line
+- Faders: White caps on dark slider tracks
+- Buttons: Square with pink/red LED illumination
+- Labels: Dark text, numbers 1-9 above each channel
+- "KORG" branding top-left
+- "nano KONTROL" text below branding
+- Overall dimensions: Very wide module (likely 50-60 HP in VCV terms)

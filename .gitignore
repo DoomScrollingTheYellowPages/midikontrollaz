@@ -1,1 +1,46 @@
+# Build artifacts
 **/build/
+**/dist/
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.d
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# VCV Rack plugin outputs
+plugin.dll
+plugin.so
+plugin.dylib
+
+# Archives
+*.zip
+*.tar.gz
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Rack SDK (fetched at build time)
+Rack-SDK/
+Rack-SDK.zip
+
+# Dependencies
+**/dep/
+
+# IDE / editor
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
